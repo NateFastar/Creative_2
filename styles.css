@@ -1,0 +1,91 @@
+
+
+.bg-dark{
+    background-color: #151920 !important;
+}
+
+.nav-link {
+    font-size: 2rem !important;
+    padding-left: 0.5rem !important;
+}
+
+.weekRow {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+}
+
+.dayColumn {
+	display: flex;
+	flex-direction: column;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.card {
+	display: flex;
+	flex-direction: row !important;
+	justify-content: space-around;
+    background-color: #151920 !important;
+	text-align: left;
+	margin: 5px;
+	width: 100%;
+}
+.card-title {
+	background-color: #000024 !important;
+	padding: 5px;
+}
+
+.card-img-top {
+	align-self: center;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #ffffff;
+    background-color: #252c33;
+}
+
+.content {
+    
+    min-height: 100%;
+    position: relative;
+}
+
+.header {
+    padding: 10px;
+}
+
+.center {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.footer {
+    display:block;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #151920;
+    color: #ffffff;
+}
+
+.imageBlock {
+    display: block;
+    float:left;
+}
+
